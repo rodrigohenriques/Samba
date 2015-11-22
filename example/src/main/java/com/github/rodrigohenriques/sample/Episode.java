@@ -1,6 +1,9 @@
 package com.github.rodrigohenriques.sample;
 
-@SambaWith(R.layout.episode_item)
+import com.github.rodrigohenriques.samba.TextView;
+import com.github.rodrigohenriques.samba.ViewHolder;
+
+@ViewHolder(R.layout.episode_item)
 public class Episode {
     public String title;
     public String rating;
@@ -10,10 +13,12 @@ public class Episode {
         this.rating = rating;
     }
 
+    @TextView(R.id.textview_episode_name)
     public String getTitle() {
         return title;
     }
 
+    @TextView(R.id.textview_episode_rating)
     public String getRating() {
         return rating;
     }

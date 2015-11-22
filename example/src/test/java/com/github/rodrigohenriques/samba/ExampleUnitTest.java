@@ -1,4 +1,4 @@
-package com.github.rodrigohenriques.samba;
+package com.github.rodrigohenriques.sample;
 
 import org.junit.Test;
 

@@ -29,8 +29,8 @@ public class EpisodeAdapter extends RecyclerView.Adapter<EpisodeAdapter.ViewHold
     public void onBindViewHolder(ViewHolder holder, int position) {
         Episode episode = episodes.get(position);
 
-        holder.textViewName.setText(String.format("%s - %s", episode.episode, episode.title));
-        holder.textViewRating.setText(episode.imdbRating);
+        holder.textViewName.setText(String.format("%s - %s", episode.getTitle(), episode.title));
+        holder.textViewRating.setText(episode.getRating());
     }
 
     @Override

@@ -1,1 +1,1 @@
-include ':example', ':samba'
+include ':example', ':samba', ':compiler'
