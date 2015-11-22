@@ -1,4 +1,4 @@
-package com.github.rodrigohenriques.samba;
+package com.github.rodrigohenriques.sample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
